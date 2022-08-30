@@ -6,6 +6,7 @@ const fs = require('fs');
 const dateFilter = require('./src/filters/date-filter.js');
 const markdownFilter = require('./src/filters/markdown-filter.js');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
+const CleanCSS = require('clean-css');
 
 // Import transforms
 const htmlMinTransform = require('./src/transforms/html-min-transform.js');
@@ -19,6 +20,9 @@ module.exports = function(config) {
   config.addFilter('dateFilter', dateFilter);
   config.addFilter('markdownFilter', markdownFilter);
   config.addFilter('w3DateFilter', w3DateFilter);
+  config.addFilter('cssmin', function(code) {
+    return new CleanCSS({}).minify(code).styles;
+  });
 
   // Layout aliases
   config.addLayoutAlias('home', 'layouts/home.njk');
@@ -33,6 +37,7 @@ module.exports = function(config) {
   config.addPassthroughCopy('src/js');
   config.addPassthroughCopy('src/admin/config.yml');
   config.addPassthroughCopy('src/admin/previews.js');
+  config.addPassthroughCopy('src/css');
   config.addPassthroughCopy('node_modules/nunjucks/browser/nunjucks-slim.js');
   config.addPassthroughCopy('src/robots.txt');
 
