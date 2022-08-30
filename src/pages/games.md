@@ -8,11 +8,11 @@ layout: 'layouts/page.njk'
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WA8DAXLNmjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-A simple game for Android where you control a milkshake and tap to jump. It focuses purely on timing to jump on platforms and increaeses in difficulty as you reach greater heights.
+A simple game where you control a milkshake and tap to jump. It focuses purely on timing and increases in difficulty as you reach greater heights.
 
 <div style="display: flex; justify-content: space-evenly; flex-wrap: wrap">
 {%- for item in milkshake_jump.images -%}
-<img src={{item.url}} style="width: 125px; margin-top: 10px;" alt={{item.alt}}>
+<img src={{item.url}} width: "125" height: "250" style="width: 125px; margin-top: 10px;" alt={{item.alt}}>
 {%- endfor -%}
 </div>
 

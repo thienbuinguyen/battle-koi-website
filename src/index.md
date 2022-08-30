@@ -13,8 +13,8 @@ This website showcases all the games I've released and my game development blogs
 
 ---
 
-## Showcase
+## Milkshake Jump
 
-### Milkshake Jump
-
-<a href="/games/#heading-milkshake-jump"><img src="/images/milkshake-jump/feature.jpg" alt="Milkshake Jump game title"></a>
+<div style="margin: 0 auto;">
+<a href="/games/#heading-milkshake-jump"><img src="/images/milkshake-jump/feature.jpg" alt="Milkshake Jump game title" width="650" height="255"></a>
+</div>

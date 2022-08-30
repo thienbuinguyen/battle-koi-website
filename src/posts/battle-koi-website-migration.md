@@ -9,6 +9,6 @@ tags:
 
 Hi there, this is the first blog from Battle Koi.
 
-I've migrated the Battle Koi website to use `eleventy` instead of `React`. I was having trouble maintaining the previous site since I hadn't touched `React` for over a year. Having to keep updated with web development libraries became a massive chore when I just wanted to focus on making games.
+I've just migrated the this website to use `eleventy` instead of `React`. I was having trouble maintaining the previous version since I hadn't touched `React` for over a year...
 
-I've also decided to start blogging my games and development. I figured it would be a good way to look back in a few months/years to see what I came up with. Anyway, we'll see where it goes. I hope you'll follow along for the ride.
+Anyway I've decided to start blogging about the development of my new games. I figured it would be a good way to look back in a few months/years to see what I came up with. I guess we'll see where it goes.
