@@ -12,7 +12,7 @@ A simple game where you control a milkshake and tap to jump. It focuses purely o
 
 <div style="display: flex; justify-content: space-evenly; flex-wrap: wrap">
 {%- for item in milkshake_jump.images -%}
-<img src={{item.url}} width: "125" height: "250" style="width: 125px; margin-top: 10px;" alt={{item.alt}}>
+<img src={{item.url}} width="125" height="250" style="width: 125px; margin-top: 10px;" alt={{item.alt}}>
 {%- endfor -%}
 </div>
 
